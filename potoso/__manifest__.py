@@ -3,6 +3,7 @@
 {
     'name': 'PO in SO',
     'version': '1.1',
+    'author': 'HKDevelopers',
     'summary': 'By using you can management purchase order from sales order.',
     'description': "this is for description",
     'category': 'Accounting',
