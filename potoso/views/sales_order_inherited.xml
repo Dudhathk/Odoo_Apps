@@ -14,5 +14,13 @@
                 </header>
             </field>
         </record>
+
+        <record id="sales_order_po_inherit_action" model="ir.actions.act_window">
+            <field name="name">SO Action</field>
+            <field name="res_model">sale.order</field>
+        </record>
+
+        <menuitem name="menu_name" action="sales_order_po_inherit_action" id="sales_order_main_inherited" web_icon="potoso.static/description/icon.png"
+                  sequence="1"/>
     </data>
 </odoo>
