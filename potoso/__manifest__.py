@@ -8,6 +8,7 @@
     'description': "this is for description",
     'category': 'Accounting',
     'website': '',
+    'images': ['static/description/icon.png'],
     'depends': ['base', 'sale_management', 'purchase'],
     'data': [
         'security/ir.model.access.csv',
